@@ -12,8 +12,10 @@ pip install foobar
 
 ## Usage
 
-```python
+R 
 import foobar
+
+Test here
 
 foobar.pluralize('word') # returns 'words'
 foobar.pluralize('goose') # returns 'geese'
