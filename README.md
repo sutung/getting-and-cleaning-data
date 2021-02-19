@@ -1,28 +1,22 @@
 # README
 
-Foobar is a Python library for dealing with word pluralization.
+## Getting and Cleaning Data Project
 
-## Installation
+The purpose of this project is to demonstrate how to collect, work with, and clean a data set. 
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+## Source
 
-```bash
-pip install foobar
-```
+A full description is available at the site where the data was obtained from:
 
-## Usage
+http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-R 
-import foobar
+Here are the data for the project:
+https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip  
+## run_analysis.R
+The script should compute the following:
 
-Test here
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
+1. Merges the training and the test sets to create one data set.
+2. Extracts only the measurements on the mean and standard deviation for each measurement. 
+3. Uses descriptive activity names to name the activities in the data set
+4. Appropriately labels the data set with descriptive variable names. 
+5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
